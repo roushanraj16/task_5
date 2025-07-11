@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopEase – Smart Product Discovery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ShopEase</h1>
+    <p class="tagline">Find the best products, effortlessly.</p>
+    <nav class="filters">
+      <button onclick="filterProducts('all')">All</button>
+      <button onclick="filterProducts('electronics')">Electronics</button>
+      <button onclick="filterProducts('fashion')">Fashion</button>
+      <button onclick="filterProducts('home')">Home</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-grid" id="productGrid">
+      <!-- Products will be injected here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopEase. Built for smarter shopping.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
